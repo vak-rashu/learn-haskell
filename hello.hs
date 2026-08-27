@@ -3,9 +3,8 @@
 main :: IO()
 main = do 
     putStrLn "Hello, Haskell!"
-    print x
-    print x
-    print x
+    print f
+    
 
 -- define type of x
 x, y :: Int
@@ -18,3 +17,7 @@ y = y+1
 
 -- cannot define x again because it is defined as 3 and cannot be changed again
 -- x = 4
+
+f = 19 `div` 9
+
+-- writing functions
