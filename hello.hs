@@ -7,6 +7,9 @@ main = do
     print resFoo
     print resulttorial
     print num
+    print pair
+    print a
+
 
 
 -- define type of x
@@ -52,3 +55,11 @@ isEven n
 
 num :: Bool
 num = isEven 2
+
+pair :: (Int, Char)
+pair = (1, 'c')
+
+func :: Int -> Int -> Int
+func n m = n+m
+a :: Int
+a = func 3 4
